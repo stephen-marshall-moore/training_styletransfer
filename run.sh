@@ -2,8 +2,9 @@
 
 python style.py --style images/matildeperez.jpg \
   --checkpoint-dir checkpoints/ \
-  --train-path /datasets/coco \
-  --model-dir models/ \
+  --vgg-path /styletransfer/data/imagenet-vgg-verydeep-19.mat \
+  --train-path /datasets/coco/ \
+  --model-dir /artifacts \
   --test images/violetaparra.jpg \
   --test-dir tests/ \
   --content-weight 1.5e1 \
