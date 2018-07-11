@@ -1,6 +1,6 @@
 #! /bin/bash
 
-python style.py --style images/matildeperez.jpg \
+python style.py --style images/matta.jpg \
   --checkpoint-dir checkpoints/ \
   --vgg-path /styletransfer/data/imagenet-vgg-verydeep-19.mat \
   --train-path /datasets/coco/ \
