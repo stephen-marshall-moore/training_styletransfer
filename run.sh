@@ -1,6 +1,6 @@
 #! /bin/bash
 export PYTHONUNBUFFERED=0
-python style.py --style images/aldunate.jpg \
+python style.py --style images/rosemarysflowers.jpg \
   --checkpoint-dir checkpoints/ \
   --vgg-path /styletransfer/data/imagenet-vgg-verydeep-19.mat \
   --train-path /datasets/coco/coco_train2014 \
